@@ -1,0 +1,8 @@
+package me.emmy.cosmetics.util;
+
+/**
+ * @author Emmy
+ * @project Cosmetics
+ * @since 15/06/2025
+ */public class Logger {
+}
