@@ -1,8 +1,8 @@
-package dev.revere.alley.api.menu.impl;
+package me.emmy.cosmetics.api.menu.impl;
 
-import dev.revere.alley.api.menu.Button;
-import dev.revere.alley.tool.item.ItemBuilder;
 import lombok.AllArgsConstructor;
+import me.emmy.cosmetics.api.menu.Button;
+import me.emmy.cosmetics.util.ItemBuilder;
 import org.bukkit.Material;
 import org.bukkit.entity.Player;
 import org.bukkit.inventory.ItemStack;

@@ -1,4 +1,4 @@
-package dev.revere.alley.api.menu.pagination;
+package me.emmy.cosmetics.api.menu.pagination;
 
 import lombok.Getter;
 import lombok.RequiredArgsConstructor;

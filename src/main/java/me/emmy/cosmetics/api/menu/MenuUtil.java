@@ -1,6 +1,6 @@
-package dev.revere.alley.api.menu;
+package me.emmy.cosmetics.api.menu;
 
-import dev.revere.alley.api.menu.pagination.PaginatedMenu;
+import me.emmy.cosmetics.api.menu.pagination.PaginatedMenu;
 import lombok.experimental.UtilityClass;
 import org.bukkit.entity.Player;
 

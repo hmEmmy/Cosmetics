@@ -1,11 +1,11 @@
-package dev.revere.alley.api.menu.pagination.impl.button;
+package me.emmy.cosmetics.api.menu.pagination.impl.button;
 
-import dev.revere.alley.api.menu.Button;
-import dev.revere.alley.api.menu.pagination.PageFilter;
-import dev.revere.alley.api.menu.pagination.impl.menu.FilterablePaginatedMenu;
-import dev.revere.alley.tool.item.ItemBuilder;
-import dev.revere.alley.util.chat.CC;
+import me.emmy.cosmetics.api.menu.Button;
+import me.emmy.cosmetics.api.menu.pagination.PageFilter;
+import me.emmy.cosmetics.api.menu.pagination.impl.menu.FilterablePaginatedMenu;
 import lombok.AllArgsConstructor;
+import me.emmy.cosmetics.util.CC;
+import me.emmy.cosmetics.util.ItemBuilder;
 import org.apache.commons.lang.StringEscapeUtils;
 import org.bukkit.ChatColor;
 import org.bukkit.Material;

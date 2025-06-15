@@ -1,9 +1,9 @@
-package dev.revere.alley.api.menu.pagination.impl.menu;
+package me.emmy.cosmetics.api.menu.pagination.impl.menu;
 
-import dev.revere.alley.api.menu.Button;
-import dev.revere.alley.api.menu.pagination.PageFilter;
-import dev.revere.alley.api.menu.pagination.PaginatedMenu;
-import dev.revere.alley.api.menu.pagination.impl.button.PageFilterButton;
+import me.emmy.cosmetics.api.menu.Button;
+import me.emmy.cosmetics.api.menu.pagination.PageFilter;
+import me.emmy.cosmetics.api.menu.pagination.PaginatedMenu;
+import me.emmy.cosmetics.api.menu.pagination.impl.button.PageFilterButton;
 import lombok.Getter;
 import lombok.Setter;
 import org.bukkit.entity.Player;

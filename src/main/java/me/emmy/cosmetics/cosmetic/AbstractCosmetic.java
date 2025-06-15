@@ -3,6 +3,7 @@ package me.emmy.cosmetics.cosmetic;
 import lombok.Getter;
 import lombok.Setter;
 import org.bukkit.Material;
+import org.bukkit.entity.Player;
 
 import java.util.List;
 
@@ -13,7 +14,7 @@ import java.util.List;
  */
 @Getter
 @Setter
-public class Cosmetic {
+public abstract class AbstractCosmetic {
     private final String name;
     private final String displayName;
     private final List<String> description;
@@ -24,7 +25,7 @@ public class Cosmetic {
     private final int durability;
 
     /**
-     * Constructor for the Cosmetic class.
+     * Constructor for the AbstractCosmetic class.
      *
      * @param name        The internal name of the cosmetic.
      * @param displayName The display name of the cosmetic.
@@ -33,7 +34,7 @@ public class Cosmetic {
      * @param material    The material type of the cosmetic.
      * @param durability  The durability of the cosmetic item.
      */
-    public Cosmetic(String name, String displayName, List<String> description, String permission, Material material, int durability) {
+    public AbstractCosmetic(String name, String displayName, List<String> description, String permission, Material material, int durability) {
         this.name = name;
         this.displayName = displayName;
         this.description = description;
@@ -41,4 +42,11 @@ public class Cosmetic {
         this.material = material;
         this.durability = durability;
     }
+
+    /**
+     * Executes the cosmetic action for the given player.
+     *
+     * @param player The player who is using the cosmetic.
+     */
+    public abstract void execute(Player player);
 }

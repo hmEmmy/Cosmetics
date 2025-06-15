@@ -1,3 +1,7 @@
 name: Cosmetics
 version: '${project.version}'
-main: me.emmy.cosmetics.Cosmetics
+main: me.emmy.cosmetics.CosmeticsPlugin
+commands:
+  cosmetics:
+    description: Opens the cosmetics menu.
+    usage: /<command>

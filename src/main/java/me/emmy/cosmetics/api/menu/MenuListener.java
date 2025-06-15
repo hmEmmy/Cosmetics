@@ -1,6 +1,6 @@
-package dev.revere.alley.api.menu;
+package me.emmy.cosmetics.api.menu;
 
-import dev.revere.alley.Alley;
+import me.emmy.cosmetics.CosmeticsPlugin;
 import org.bukkit.Bukkit;
 import org.bukkit.entity.Player;
 import org.bukkit.event.EventHandler;
@@ -59,7 +59,7 @@ public class MenuListener implements Listener {
                 }
 
                 if (event.isCancelled()) {
-                    Bukkit.getScheduler().runTaskLater(Alley.getInstance(), player::updateInventory, 1L);
+                    Bukkit.getScheduler().runTaskLater(CosmeticsPlugin.getInstance(), player::updateInventory, 1L);
                 }
             } else {
                 if (event.getCurrentItem() != null) {

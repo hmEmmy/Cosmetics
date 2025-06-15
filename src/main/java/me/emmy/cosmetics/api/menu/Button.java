@@ -1,4 +1,4 @@
-package dev.revere.alley.api.menu;
+package me.emmy.cosmetics.api.menu;
 
 import org.apache.commons.lang.StringUtils;
 import org.bukkit.Material;

@@ -1,10 +1,10 @@
-package dev.revere.alley.api.menu.pagination.impl.button;
+package me.emmy.cosmetics.api.menu.pagination.impl.button;
 
-import dev.revere.alley.api.menu.Button;
-import dev.revere.alley.api.menu.pagination.PaginatedMenu;
-import dev.revere.alley.api.menu.pagination.impl.menu.ViewAllPagesMenu;
-import dev.revere.alley.tool.item.ItemBuilder;
+import me.emmy.cosmetics.api.menu.Button;
+import me.emmy.cosmetics.api.menu.pagination.PaginatedMenu;
+import me.emmy.cosmetics.api.menu.pagination.impl.menu.ViewAllPagesMenu;
 import lombok.AllArgsConstructor;
+import me.emmy.cosmetics.util.ItemBuilder;
 import org.bukkit.ChatColor;
 import org.bukkit.Material;
 import org.bukkit.entity.Player;

@@ -1,4 +1,4 @@
-package dev.revere.alley.tool.item;
+package me.emmy.cosmetics.util;
 
 import org.bukkit.Bukkit;
 import org.bukkit.ChatColor;

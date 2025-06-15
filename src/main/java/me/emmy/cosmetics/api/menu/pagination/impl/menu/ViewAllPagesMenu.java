@@ -1,9 +1,9 @@
-package dev.revere.alley.api.menu.pagination.impl.menu;
+package me.emmy.cosmetics.api.menu.pagination.impl.menu;
 
-import dev.revere.alley.api.menu.Button;
-import dev.revere.alley.api.menu.Menu;
-import dev.revere.alley.api.menu.pagination.PaginatedMenu;
-import dev.revere.alley.api.menu.pagination.impl.button.JumpToPageButton;
+import me.emmy.cosmetics.api.menu.Button;
+import me.emmy.cosmetics.api.menu.Menu;
+import me.emmy.cosmetics.api.menu.pagination.PaginatedMenu;
+import me.emmy.cosmetics.api.menu.pagination.impl.button.JumpToPageButton;
 import lombok.Getter;
 import lombok.NonNull;
 import lombok.RequiredArgsConstructor;
